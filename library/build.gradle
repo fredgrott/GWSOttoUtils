@@ -110,7 +110,7 @@ dependencies {
               pom {
                 project {
                   packaging 'aar'
-                  name 'otto event bus utility classes'
+                  name 'GWSOttoUtils'
                   url siteUrl
 
                   licenses {
