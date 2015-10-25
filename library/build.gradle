@@ -5,7 +5,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 
 def libVersionCode = 1
-def libVersionName = "1.0.0.0"
+def libVersionName = "1.0.0.1"
 // if its a snapshot than version needs to be commit hash instead
 // and end user of lib wil put the suffix -SNAPSHOT or commit hash and classifier aar to get
 //lib module version number
@@ -106,6 +106,7 @@ dependencies {
     }
 
     compile rootProject.ext.appDependencies.otto
+    compile rootProject.ext.appDependencies.timber
 }
  install {
       repositories.mavenInstaller{
